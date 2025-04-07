@@ -4,165 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Portfolio Project in WST &#9829; </title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
 </head> 
-<style> 
-    body
-     {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333333;
-}
-    header {
-    background-color: #f9c3f6;
-    color: #524e4e;
-    text-align: center;
-    padding: 1em 0;
-}
-
-    nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-
-}
-
-    nav ul li {
-    display: inline;
-    margin: 0 1em;
-    text-align: center;
-}
-
-    nav a {
-    color: #fff;
-    text-decoration: none;
-
-}
-
-    main {
-    padding: 2em;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-    section {
-    flex: 3;
-    margin-right: 2em;
-    text-align: center;
+    <style> 
    
-}
+        *{margin: 0;
+         padding: 0;
+         background: url(xyzamandal.jpg);
+        }
+   
+        main {
+         width: 100%;
+         padding: 2em;
+         display: flex;
+         flex-wrap: wrap;
+         background-position: center;
+         font-family: sans-serif;
+         background-size: cover;
+         height: 100vh;
+         position: relative;   
+        }
 
-    aside {
-    flex: 1;
-    background-color: #ede2e2;
-    padding: 1em;
-    text-align: center;
-}
- 
-    footer {
-    background-color: #d8baba;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
+        .navbar{
+         width: 86%;
+         display: flex;
+         margin: auto;
+         padding: 15px 0;
+         align-items: center;
+         justify-content: space-between;
+         word-spacing: 20px;
+        }
 
-    iframe {
-    border: 2px solid #a73434;
-    margin-bottom: 1em;
-}
-    img {
-    max-width: 100%;
-    height: auto;
-  }
-  ::-webkit-scrollbar {
-     width: 15px;
- }
- 
- ::-webkit-scrollbar-thumb {
-     background-color: rgb(231, 35, 211);
- }
- 
- ::-webkit-scrollbar-track {
-     background-color: rgba(0, 0, 0, 0.6);
-     width: 50px;
- }
+        .navbar .logo{
+         width: 160px;
+         cursor: pointer;
+         margin-top: -3%;
+         margin-left: -2%;
+        }
+
+        ul {
+         margin-top: -4%;
+        }
+
+        ul li {
+         list-style: none;
+         display: inline-block;
+         padding: 10px 16x;
+        }
+
+        ul li a {
+         font-size: 20px;
+         font-weight: bold;
+         text-decoration: none;
+         color: darkslategray;
+         margin-top: 10%;
+        }
+
+        ul li a:hover{
+         color : black;
+        }
+    
+        section {
+         flex: 3;
+         margin-right: 2em;
+         text-align: center;
+        }
+
+        .info{
+         margin-left: 7%;
+         margin-top: 6%;
+        }
+   
+        .info h1{
+         font-size: 40px;
+         color: rgb(36,32,30)
+        }
+
+        .info h3 {
+         font-size: 15px;
+         letter-spacing: 1px;
+         line-height: 24px;
+        }
+
+        .info span{
+         color: rgb(237, 61, 73); 
+        }
+
+        .image {
+         width: 30%;
+         height: 60%;
+         position: absolute;
+         right: 100px;
+         bottom: 0;
+        }
+
+        .image img{
+         position: absolute;
+         height: 130%;
+         left:40%;
+         transform: translate(-55%);
+         bottom: 0;
+         transition: left 2s ease;
+        } 
+
+        .image:hover .us{
+         left: 55%;
+        }
+
+        .icons a{
+         text-decoration: none;
+         color: black;
+        }
+
+        .icons ion-icon{
+         margin-left:  7%;
+         color: black;
+         margin-right: -60px;
+         font-size: 40px;
+         transform-origin: .4s ease;
+        }
+
+        .icons ion-icon:hover {
+         color:hsl(227, 38%, 52%)
+        }
 
 </style>
 <body>
-    
-    <header>
-        <h1>Our Personal Portfolio</h1>
-        <nav>
+    <div class="main">
+        <div class="navbar">
+            <img src="logo.png" class="logo" >
+        
             <ul>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        
             </ul>
-        </nav>
-
-    </header>
-    <main>
-        <aside>
-        <section class="about">
-            <h2>About Us</h2>
-            <p>Hello,welcome to our website! We are students who are passionate about web development.  I'm Xyza Mandal and my partner  Apple Mae Alcuizar.  At the moment, we are enrolled at Cebu Eastern College Inc., which is located in Leon Kilat Street in Cebu City, Philippines.  We would like to learn and develop in this field. &#8711;</p>
-
-        </aside>
-
-        </section>
-
-        <section id="projects">
-            <h2>Our Projects</h2>
-            <article>
-                <h3>Project 1: Personal Blog</h3>
-                <p>Check out our blog where We Share our Thougths and experiences.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HGTJBPNC-Gw?si=2yTEksV1rziSFy8R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                <h2>Location</h2>
-                <p>Cebu Eastern College Map</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1075.186836750843!2d123.89632714204667!3d10.294514202796067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc4d600a1%3A0x6d00f8cb31f749d3!2s40%20Leon%20Kilat%20St%2C%20Cebu%20City%2C%206000%20Cebu!5e1!3m2!1sfil!2sph!4v1741604088620!5m2!1sfil!2sph" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-                <img src="map.jpg" alt="Image Map" usemap="#image-map" height="450" width="600">
-
-                <map name="image-map">
-                    <area shape="rect" coords="34,44,270,350" href="https://maps.app.goo.gl/VNiu2gGSadYtqnPs7" alt="Link 1" >
-
-                    <area shape="rect" coords="100,100,200,200" href="https://maps.app.goo.gl/R1dsFK6uGnpYUroS8s" alt="Link 2">
-                </map>
-
-            </article>
-
-
-        </section>
-
-        <aside>
-            <section id="contact">
-                <h2>Contact </h2>
-                <p>Email: <br>Maezaportiza2@gmail.com <br>Mandalxyza558@gmail.com</p>
-                <p>Phone number:<br>09691274065</p>
-                <p> Phone number: <br>09858601521</p>
-                <p>Email: <br>Maezaportiza2@gmail.com </p>
-            </section>
-        </aside>
-    </main>
-
-       <section>
-        <a>My Favorite Emojis</a>
-               
-                <p>&#10084;Black Heart:The range of intense emotions, sometimes dark, form of love, depending heavily on context.</p>
-                <p>&#128578;Smiling Face:Expresses happiness, joy, and amusement.</p>
-                <p>&#127758;Globe Showing:Represents the world, or travel.</p>
-                <p>&#128077;Thumbs Up Sign:Agreement, or support.</p>
-                <p>&#128514;Face with Tears of Joy: Extreme amusement.</p>
-               
-        </section>
-    <footer>
-        <p>&copy; Xyza D. Mandal & Apple Mae Alcuizar - BSIT 1 Sec 4</p>
-    </footer>
+        </div>
+    </div>
     
+   
+    <div class="info">
+        <h3>Hi I'm <span> Xyza Mandal </span> and my partner <span>Apple Mae Alcuizar</span>.</h3>
+        <h1><span>C</span>reative <span>P</span>ortfolio</h1>
+        <h3>We are the student in Cebu Eastern College in Cebu City</h3>
+    </div>
+
+    <div class="image">
+        <img src="us.jpg" class="us">
+
+    </div>
+    
+    <div class="icons">
+        <a href="https://www.facebook.com/isayyy.99"> <ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://www.instagram.com/tissaayyyy/"> <ion-icon name="logo-instagram"></ion-icon></a> 
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon></a>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js "></script>
 </body>
 </html>
+    

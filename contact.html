@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Projects</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <style>
+
+        body {
+         font-family: sans-serif;
+         margin: 0;
+         padding: 0;
+         background: url(xyzamandal.jpg);
+         color:#333333;
+        }
+    
+        header {
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         padding: 20px 10%;
+         background: url(ha.jpg);
+         display: flex;
+         justify-content: space-between;
+         text-align: center;
+        }
+
+        a:hover{
+         color: rgb(150, 141, 141);
+        }
+
+        a {
+         color: rgb(16, 13, 13);
+         text-decoration: none;
+         text-align: center;
+         font-weight: 600;
+        }
+
+        .contact{
+         min-height: 100vh;
+         padding: 50px;
+         text-align: center;
+        }
+
+        .container{
+         max-width: 800px;
+         margin: 0 auto;
+        }
+
+        .container h2{
+         font-size: 36px;
+         margin-bottom: 40px;
+         color: #333;
+        }
+
+        .contact-wrapper{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-gap: 30px;
+        }
+
+        .contact-form{
+         text-align: left;
+        }
+
+        .name{
+            font-family: 'Arial', sans-serif;
+            font-size: 15px;
+            font-weight: bold;        
+            padding-top: 10px;    
+            padding-right: 15px; 
+            padding-bottom: 0px; 
+            padding-left: 25px;
+        }
+        ::-webkit-scrollbar {
+         width: 15px;
+        }
+ 
+        ::-webkit-scrollbar-thumb {
+         background-color: rgb(184, 136, 118);
+        }
+ 
+        ::-webkit-scrollbar-track {
+         background-color: rgba(230, 227, 227, 0.6);
+         width: 50px;
+        }
+
+</style>
+<body>
+    <header><a href="index.html">Our Personal Portfolio</a></header>
+<section class="contact">
+    <div class="container">
+        <h2> Contact Us</h2>
+        <div class="contact-wrapper">
+            <div class=" contact-form">
+                <h3>Send us message</h3>
+                <form>
+                    <div class="form-group"> 
+                        <input type="text" name="name" placeholder="Full name">
+                    </div>
+                    <div class="form-group"> 
+                        <input type="email" name="name" placeholder="Email">
+                    </div>
+                    <div class="form-group"> 
+                        <textarea name="message"  placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p class="name">Xyza Mandal</p>
+                    <p><i class="fas fa-phone"></i>09691274065</p>
+                    <p><i class="fas fa-envelope"></i>mandalxyza558@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Apas Cebu City</p>
+                    <p class="name">Apple Mae Alcuizar </p>
+                    <p> <i class="fas fa-phone"></i>09858601521</p>
+                    <p> <i class="fas fa-envelope"></i>Maezaportiza2@gmail.com</p>
+                    <p> <i class="fas fa-map-marker-alt"></i>Labangon Cebu City</p>
+            </div>  
+        </div>
+    </div>
+</section>
+
+</head>
+</body> 
+</html>
